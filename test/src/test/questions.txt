@@ -1,0 +1,140 @@
+What is true?
+ a.You only need one opened REPL per project.
+ b.You should recompile your project before trying out the code.
+ c.You should turn off your REPL and start it again after changing the code.
+Clojure is in...?
+ a.imperative paradigm
+ b.functional paradigm
+ c.logic paradigm
+Clojure is like ...?
+ a.Java
+ b.Ruby
+ c.Lisp
+Does Clojure have tools for parallel programming?
+ a.no
+ b.yes
+ c.people are working on that
+Does Clojure provide tail call optimization?
+ a.yes, but there are better solutions.
+ b.no
+ c.yes 
+Clojure first appeared in...?
+ a.2007.
+ b.2000.
+ c.2010.
+"The Java program clojure.jar reads Clojure source code and produces Java bytecode."
+ a.maybe
+ b.no
+ c.yes
+What is Leiningen usage?
+ a.Building and managing Clojure projects.
+ b.That is the compiler for Clojure code.
+ c.An editor for writing Clojure code.
+Does Leiningen use the REPL?
+ a.maybe
+ b.no
+ c.yes
+What do you need for ?
+ a.Nothing.
+ b.Java version 1.6 or later.
+ c.Any Java version.
+Choose ...
+ a.postfix notation
+ b.infix notation
+ c.prefix notation
+Everything is in parenthesis?
+ a.don't know
+ b.yes
+ c.no
+Plug-in for Eclipse for Clojure development is...?
+ a.Cursive Clojure
+ b.Vim's tools 
+ c.Counterclockwise 
+Form for operations in Clojure is:
+ a.opening parenthesis, operator, operands separated by commas, closing parenthesis 
+ b.opening parenthesis, operator, operands, closing parenthesis 
+ c.opening parenthesis, operator, operands separated by points, closing parenthesis 
+Operator if use ..... to associate operands with the 'then' and 'else' branches.
+ a.special operator
+ b.parenthesis
+ c.operand position
+Operator do is using for...?
+ a.loops
+ b.wraping up multiple forms
+ c.control flow
+What is used to indicate no value in Clojure?
+ a.nil
+ b.null
+ c.None
+Boolean operators are...?
+ a.||, &&
+ b.|, &
+ c.or, and
+Naming values can be done with...?
+ a.(def [name] value)
+ b.(def name value)
+ c.def name value
+In Clojure we have...?
+ a.maps, vectors, lists
+ b.maps, vectors, lists, sets
+ c.vectors, lists
+Does Clojure only allow double quotes to delineate strings?
+ a.yes
+ b.no
+ c.not allways
+What is this data structure: {:first-name "Anna" :last-name "Banana"}?
+ a.set
+ b.vector
+ c.map
+How do you write a list literal?
+ a.(1 2 3 4)
+ b.{1 2 3 4}
+ c.'(1 2 3 4)
+Which data structur can't retrieve elements with 'get' function?
+ a.list
+ b.set
+ c.map
+When we type (conj '(1 2 3) 4), what do we get?
+ a.nil
+ b.(1 2 3 4)
+ c.(4 1 2 3)
+Are println and rand pure functions?
+ a.no
+ b.yes
+ c.yes in some case
+How can you create anonymous function?
+ a.with def or #
+ b.with fn or #
+ c.with def
+For defining functions we type...?
+ a.(def ime-funkcije [parametri] telo-funkcije)
+ b.(defn ime-funkcije [parametri] telo-funkcije)
+ c.(defn ime-funkcije parametri telo-funkcije)
+For all pure functoions there are no side-effects.
+ a.not necessary
+ b.false
+ c.true
+Instead of for and while we use recursion?
+ a.true
+ b.not necessary
+ c.false
+Which function checks if a value is nil?
+ a.is-nil?
+ b.nil?
+ c.is-nil
+What is the resulf of (conj #{:a :b} :b) ?
+ a.#{:a :b :b}
+ b.#{:b :a :b}
+ c.#{:a :b}
+What is '&' in Clojure?
+ a.Special syntac used with fn.
+ b.Unary operator
+ c.Doesn't mean anything in Clojure
+Which function is similar to use?
+ a.update
+ b.require
+ c.add-classpath
+Clojure is created by who?
+ a.Lennart Augustsson
+ b.Rich Hickey
+ c.Yukihiro Matsumoto
